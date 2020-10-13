@@ -1,0 +1,48 @@
+/*<--PAGE-LANDING-->*/
+#page-landing {
+    min-height: 100vh;
+
+    text-align: center;
+
+    background: linear-gradient(329.54deg, #29b6d1 0%, #007c7c 100%);
+
+    display: flex;
+}
+
+/*<--CONTAINER-->*/
+#container {
+    width: 90%;
+
+    margin: auto;
+}
+/*<--CONTAINER-->*/
+
+.location, h1, .visit p {
+    height: 16vh;
+}
+
+/*<--VISIT-->*/
+.visit a {
+    width: 8rem;
+    height: 8rem;
+
+    margin: auto;
+
+    border: none;
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background 200ms;
+
+    background-color: #ffd666;
+}
+
+.visit a:hover {
+    background: #96feff;
+}
+/*<--VISIT-->*/
+
+/*<--PAGE-LANDING-->*/

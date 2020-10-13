@@ -27,15 +27,3 @@ body, input, button, textarea {
     font: 400 1.8rem/1 'Nunito', sans-serif;
 }
 /*<--BODY-->*/
-
-/*<--PAGE-LANDING-->*/
-#page-landing {
-    min-height: 100vh;
-
-    text-align: center;
-
-    background: linear-gradient(329.54deg, #29b6d1 0%, #007c7c 100%);
-}
-
-
-/*<--PAGE-LANDING-->*/
