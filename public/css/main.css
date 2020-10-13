@@ -1,0 +1,41 @@
+/*<--FONTS-->*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,400;1,600&display=swap');
+/*<--FONTS-->*/
+
+/*<--ROOT-->*/
+:root {
+    /*font-size: 10px;*/
+    font-size: 62.5%;
+}
+/*<--ROOT-->*/
+
+/*<--GLOBAL-->*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*<--GLOBAL-->*/
+
+/*<--BODY-->*/
+body {
+    height: 100vh;
+    color: #fff;    
+}
+
+body, input, button, textarea {
+    /*font-weight, font-size, line-height, font-family, font-family(if not found Nunito)*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+/*<--BODY-->*/
+
+/*<--PAGE-LANDING-->*/
+#page-landing {
+    min-height: 100vh;
+
+    text-align: center;
+
+    background: linear-gradient(329.54deg, #29b6d1 0%, #007c7c 100%);
+}
+
+
+/*<--PAGE-LANDING-->*/
