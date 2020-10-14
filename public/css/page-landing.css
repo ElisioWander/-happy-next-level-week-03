@@ -94,7 +94,11 @@ main h1 {
   }
 
   main h1 {
-    width: min(300px, 80%)
+    width: min(300px, 80%);
+
+    margin: clamp(10%, 9vh, 12%) 0 4rem;
+
+    line-height: .88;
   }
 }
 /*<--DESKTOP VERSION-->*/
