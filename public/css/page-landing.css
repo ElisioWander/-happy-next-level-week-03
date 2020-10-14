@@ -27,6 +27,10 @@
 
 .location {
   animation-delay: 100ms;
+
+  font-size: 2.4rem;
+
+  line-height: 1.5;
 }
 
 .location,
@@ -78,6 +82,12 @@ main h1 {
 
 /*<--DESKTOP VERSION-->*/
 @media (min-width: 760px) {
+  #container {
+    padding: 5rem 2rem;
+
+    background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+  }
+
   header {
     display: flex;
     align-items: center;
@@ -99,6 +109,24 @@ main h1 {
     margin: clamp(10%, 9vh, 12%) 0 4rem;
 
     line-height: .88;
+  }
+
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .visit a {
+    margin: initial;
+  }
+
+  .visit p {
+    width: clamp(20rem, 20vw, 30rem);
+  
+    line-height: 1.5;
+  
+    font-size: 2.4rem;
   }
 }
 /*<--DESKTOP VERSION-->*/
