@@ -1,0 +1,114 @@
+/*<--FOMR-->*/
+form {
+    width: 70rem;
+
+    margin: 6.4rem auto;
+
+    padding: 8rem;
+
+    border: solid 1px #D3E2E5;
+    border-radius: 2rem;
+
+    background-color: #fff;
+
+    overflow: hidden;
+}
+
+/*<--FOMR-->*/
+
+/*<--FIELDSET-->*/
+fieldset {
+    border: none;
+}
+
+fieldset + fieldset {
+    margin-top: 8rem;
+}
+
+fieldset legend {
+    width: 100%;
+
+    margin-bottom: 4rem;
+
+    padding-bottom: 2.4rem;
+
+    font-size: 3.2rem;
+    font-weight: 700;
+
+    line-height: 1.5;
+
+    border-bottom: 1px solid #D3E2E5 ;
+
+    color: #5C8599;
+
+
+}
+/*<--FIELDSET-->*/
+
+
+/*<--INPUT-BLOCK-->*/
+.input-block {
+    position: relative;
+}
+
+.input-block + .input-block {
+    margin-top: 2.4rem;
+
+}
+
+.input-block label {
+    margin-bottom: 1.8rem;
+
+    line-height: 1.5;
+
+    color: #8FA7B3;
+}
+
+.input-block label span {
+    margin-left: 2.4rem;
+
+    font-size: 1.4rem;
+
+    line-height: 1.5;
+
+    color: #8FA7B3;
+}
+
+.input-block input,
+.input-block textarea {
+    width: 100%;
+
+    border: 1px solid #F5F8FA;
+    border-radius: 2rem;
+
+    color: #5C8599;
+
+    outline: none;
+
+    background-color: #D3E2E5;
+}
+
+.input-block:focus-within::after {
+    content: "";
+
+    width: calc(100% - 3.2rem);
+    height: 2px;
+
+    bottom: 0;
+    left: 1.6rem;
+
+    background-color: #0089a5;
+
+    position: absolute;
+}
+
+.input-block input {
+    height: 6.4rem;
+
+    padding: 0 1.6rem;
+}
+
+.input-block textarea {
+    height: clamp(12rem, 16rem, 24rem);
+}
+/*<--INPUT-BLOCK-->*/

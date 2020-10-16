@@ -1,0 +1,30 @@
+/*<--PAGE CREATE ORPHANAGE-->*/
+#page-create-orphanage {
+    min-width: 100vh;
+
+    display: flex;
+}
+/*<--PAGE CREATE ORPHANAGE-->*/
+
+
+/*<--MAIN-->*/
+main {
+    flex: 1;
+}
+/*<--MAIN-->*/
+
+
+/*<--MAP CONTAINER-->*/
+/*using <<form>> to get more power*/
+form .map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    background-color: #F5F8FA;
+}
+/*<--MAP CONTAINER-->*/
