@@ -1,0 +1,110 @@
+/*<--PAGE ORPHANAGE-->*/
+#page-orphanage {
+    display: flex;
+}
+/*<--PAGE ORPHANAGE-->*/
+
+/*<--ASIDE-->*/
+aside.sidebar {
+    height: 100%;
+
+    padding: 32px 24px; /* 3.2rem 2.4rem */
+
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #15c3d6;
+}
+
+aside.sidebar footer button {
+    width: 4.8rem;
+    height: 4.8rem;
+
+    border: none;
+    border-radius: 1.6rem;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #12afcb;
+
+    transition: background-color 200ms;
+}
+
+aside.sidebar footer button:hover {
+    background-color: #17d6eb;
+}
+
+.with-sidebar {
+    padding-left: 41px;
+}
+/*<--ASIDE-->*/
+
+/*<--ORPHANAGE DETAILS-->*/
+.orphanage-details {
+    width: 70rem;
+
+    margin: 6.4rem;
+
+    border: solid 1px #d3e2e5;
+    border-radius: 2rem;
+
+    background-color: #fff; 
+
+    overflow: hidden;
+}
+
+.orphanage-details > img {
+    width: 100%;
+    height: 30rem;
+
+    object-fit: cover;
+}
+/*<--ORPHANAGE DETAILS-->*/
+
+/*<--IMAGES-->*/
+.images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.6rem;
+
+    margin: 16px 40px 0;
+}
+
+.images button {
+    height: 8.8rem;
+
+    border: none;
+    border-radius: 2rem;
+
+    cursor: pointer;
+
+    background: none;
+
+    overflow: hidden;
+
+    opacity: 0.6;
+
+    transition: opacity 200ms;
+}
+
+.images button:hover,
+.images button.active {
+    opacity: 1;
+}
+
+.images button img {
+    width: 100%;
+    height: 8.8rem;
+
+    object-fit: cover;
+}
+/*<--IMAGES-->*/
