@@ -156,37 +156,3 @@ main {
 }
 
 /*<--OPEN DETAILS-->*/
-
-
-/*<--PRIMARY BUTTON-->*/
-.primary-button {
-    width: 100%;
-    height: 6.4rem;
-
-    border: none;
-    border-radius: 2rem;
-
-    cursor: pointer;
-
-    margin-top: 6.4rem;
-
-    color: #fff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #3cdc8c;
-
-    transition: background-color 200ms;
-}
-
-.primary-button:hover {
-    background-color: #36cf82;
-}
-
-.primary-button img {
-    margin-right: 1.6rem;
-}
-
-/*<--PRIMARY BUTTON-->*/

@@ -1,0 +1,79 @@
+/*<--PRIMARY BUTTON-->*/
+.primary-button {
+    width: 100%;
+    height: 6.4rem;
+
+    border: none;
+    border-radius: 2rem;
+
+    cursor: pointer;
+
+    margin-top: 6.4rem;
+
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #3cdc8c;
+
+    transition: background-color 200ms;
+}
+
+.primary-button:hover {
+    background-color: #36cf82;
+}
+
+.primary-button img {
+    margin-right: 1.6rem;
+}
+
+/*<--PRIMARY BUTTON-->*/
+
+/*<</////////////////BUTTON PAGE CREATE ORPHANAGE/////////////////>>*/
+
+/*<--BUTTON SELECT-->*/
+.button-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+    outline-color: #0089a5;
+}
+
+.button-select button:hover {
+    border: solid 1px #A1E9C5;
+
+    background-color: #EDFFF6;
+}
+
+.button-select button.active {
+    border: solid 1px #A1E9C5;
+
+    color: #37C77F;
+
+    background-color: #EDFFF6;
+}
+
+.button-select button:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
+    border-radius: 0 2rem 2rem 0;
+}
+
+.button-select button {
+    height: 6.4rem;
+
+    border: solid 1px #D3E2E5;
+
+    cursor: pointer;
+
+    color: #5C8599;
+
+    background-color: #F5F8FA;
+}
+/*<--BUTTON SELECT-->*/
