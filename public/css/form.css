@@ -157,6 +157,10 @@ fieldset legend {
     align-items: center;
     justify-content: center;
 }
+
+.new-upload + .new-upload {
+    margin-top: 2.4rem;
+}
 /*<--NEW UPLOAD-->*/
 
 /*<--BUTTON UPLOAD-->*/
