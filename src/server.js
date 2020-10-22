@@ -4,8 +4,13 @@ const express = require('express')
 //start server
 const server = express()
 
+
+server
+//using static files
+.use(express.static('public'))
+
 //create route
-server.get('/', (req, res) => {
+.get('/', (req, res) => {
     return res.send('Tamo aqui!!')
 })
 
