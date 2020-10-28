@@ -1,6 +1,7 @@
 //inport dependence
 const express = require('express')
 const path = require('path')
+const pages = require('./pages.js')
 
 //start server
 const server = express()
@@ -15,9 +16,7 @@ server
 .set('view engine', 'hbs')
 
 //create route
-.get('/', (req, res) => {
-    return res.render('index')
-})
+.get('/', pages.index)
 
 
 
