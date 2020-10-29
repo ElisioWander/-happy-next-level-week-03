@@ -15,8 +15,11 @@ server
 .set('views', path.join(__dirname, "views"))
 .set('view engine', 'hbs')
 
-//create route
+//create routes
 .get('/', pages.index)
+.get('/orphanage', pages.orphanage)
+.get('/orphanages', pages.orphanages)
+.get('/create-orphanage', pages.createOrphanage)
 
 
 
