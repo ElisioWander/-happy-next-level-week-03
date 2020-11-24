@@ -19,5 +19,5 @@ function execute(db) {
 }
 
 //create and open at current directory the archivo database.sqlite
-//and then execute the function called "execute"
+//and then execute the function called "execute".
 module.exports = Database.open(__dirname + '/database.sqlite').then(execute)
