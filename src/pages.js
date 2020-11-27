@@ -40,7 +40,7 @@ module.exports = {
             return res. render('orphanages', { orphanages })
         } catch (error) {
             console.log(error)
-            return res.send("Erro no banco de dados!")
+            return res.send("Erro no bando de dados")
         }
     },
 
