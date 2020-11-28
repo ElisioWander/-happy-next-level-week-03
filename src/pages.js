@@ -58,7 +58,7 @@ module.exports = {
 
         try {
             //save a orphanage
-            const db = await database
+            const db = await Database
 
             await saveOrphanage(db, {
                 lat: fields.lat,
@@ -67,11 +67,12 @@ module.exports = {
                 about: fields.about,
                 whatsapp: fields.whatsapp,
                 images: fields.images.toString(),
-                description: fields.description,
+                instructions: fields.instructions,
                 opening_hours: fields.opening_hours,
                 open_on_weekends: fields.open_on_weekends,
             })
             
+            return res.redirect('/orphanage')
         } catch (error) {
             console.log(error)
             res.send('Erro no banco de dados!')
