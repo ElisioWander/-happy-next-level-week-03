@@ -72,7 +72,7 @@ module.exports = {
                 open_on_weekends: fields.open_on_weekends,
             })
             
-            return res.redirect('/orphanage')
+            return res.redirect('/orphanages')
         } catch (error) {
             console.log(error)
             res.send('Erro no banco de dados!')
