@@ -12,11 +12,11 @@ module.exports = {
         const id = req.query.id
 
         try {
-            const db = await Database
+            const db = await Database;
             const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`)
             const orphanage = results[0]
 
-            orphanage.images = orphanage.images.split(",")
+            orphanage.images = orphanage.images.split(",");
             orphanage.firstImage = orphanage.images[0]
 
             if (orphanage.open_on_weekends == "0") {
