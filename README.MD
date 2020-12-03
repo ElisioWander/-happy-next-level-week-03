@@ -14,7 +14,7 @@
 ---
 
 ## 🛠️ Tecnologias utilizadas
-Foram utilizadas as seguintes tecnologias para desenvolver a aplicação **Ecoleta** :
+Foram utilizadas as seguintes tecnologias para desenvolver a aplicação **Happy** :
 
 - HTML
 - CSS
