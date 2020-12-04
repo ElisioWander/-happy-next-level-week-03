@@ -55,4 +55,11 @@ localhost:5000
 
 ---
 
+## 📝 Licença
+Copyright © 2020 [@ElisioWander](https://github.com/ElisioWander/-happy-next-level-week-03/blob/master/LICENSE)
+
+Este projeto está sobe a [LICENÇA MIT](https://opensource.org/licenses/MIT)
+
+---
+
 ### Desenvolvido 💜 by Elisio Wander
